@@ -1,0 +1,78 @@
+body, .page-header {
+    font-family: "Helvetica", Helvetica, serif;
+    color: black;
+}
+
+#quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    border-radius: 15pt;
+    border: 10px black solid;
+    padding: 5px;
+    background-color: rgb(17, 153, 153);
+}
+
+#quote-text {
+    font-family: "Helvetica", Helvetica, serif;
+    font-size: 20pt;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+
+#author-div {
+    font-family: "Helvetica", Helvetica, serif, cursive;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15pt;
+    color: white;
+    text-align: right;
+}
+body {
+    background-color: rgb(237, 224, 199);
+    margin-bottom: 0px;
+}
+
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: "Helvetica", Helvetica, sans-serif;
+    border: solid black;
+    border-radius: 15px ;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 12pt;
+    background: rgba(238, 237, 237, 0.922);
+}
+
+.kindness {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.confetti {
+    margin-top: 30px;
+    width: 35%;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+#footer {
+    text-align: right;
+    font-style: italic;
+    font-size: 12pt;
+    background-color:#60594D;
+    color: #ffffff;
+    border: 4px black solid;
+    padding: 10px;
+}
